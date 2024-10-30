@@ -1,0 +1,160 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Credit Line Generator\n"
+"POT-Creation-Date: 2020-09-01 14:21+0200\n"
+"PO-Revision-Date: 2020-09-01 14:25+0200\n"
+"Last-Translator: \n"
+"Language-Team: Credit Line Generator <collin@xs4all.nl>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: creditline.php:117
+msgid "Image credit"
+msgstr "Image credit"
+
+#: creditline.php:117
+msgid "Make photo credits easy."
+msgstr "Auteursvermeldingen makkelijk gemaakt."
+
+#: creditline.php:117
+msgid ""
+"This tool will, if you feed it the right data, come up with something like "
+"<code><a href=\"\">Photo</a> by John Smith.</code> or <code><a href="
+"\"\">Photo of kittens</a> by John Smith, <a href=\"\">some rights reserved</"
+"a>.</code> and so on."
+msgstr ""
+"Dit werktuig zal, als je hem de juiste gegevens voert, iets produceren als "
+"<code><a href=\"\">Photo</a> by Jan Smit.</code> of <code><a href=\"\">Photo "
+"of lieve poesjes</a> by Jan Smit, <a href=\"\">some rights reserved</a>.</"
+"code> enzovoort."
+
+#: creditline.php:121
+msgid "URL"
+msgstr "URL"
+
+#: creditline.php:125
+msgid "Webpage on which you found the photo."
+msgstr "Webpagina waar je de foto vandaan hebt."
+
+#: creditline.php:129
+msgid "Photographer"
+msgstr "Fotograaf"
+
+#: creditline.php:135
+msgid "CC license URL"
+msgstr "CC-licentie-URL"
+
+#: creditline.php:137
+msgid "If the photo is Creative Commons licensed."
+msgstr "Als de foto wordt verspreid onder een Creative Commons-licentie."
+
+#: creditline.php:141
+msgid "GNU FDL URL"
+msgstr "GNU FDL-URL"
+
+#: creditline.php:143
+msgid "If the photo is GPL FDL licensed."
+msgstr "Als de foto wordt verspreid onder een GNU FDL-licentie."
+
+#: creditline.php:147
+msgid "&quot;Photo of&quot;"
+msgstr "&quot;Photo of&quot;"
+
+#: creditline.php:150
+msgid ""
+"The subject of the photo. If you fill out this field with f. ex. \"a "
+"letterbox\", the link text to the photo page will read \"Photo of a "
+"letterbox.\" Otherwise, the link will simply read \"Photo.\""
+msgstr ""
+"Het onderwerp van de foto. Als je dit veld invult met bijvoorbeeld \"een "
+"brievenbus\", dan zal de link naar de foto luiden: \"Photo of een brievenbus"
+"\". Zo niet, dan luidt de link slechts \"Photo\"."
+
+#: creditline.php:154
+msgid "Submit"
+msgstr "Verzenden"
+
+#: creditline.php:154
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: options.php:18
+msgid "Extended Mark-up"
+msgstr "Uitgebreide codering."
+
+#: options.php:25
+msgid "Enable extended mark-up?"
+msgstr "Uitgebreide codering aanzetten?"
+
+#: options.php:33
+msgid "HTML class name"
+msgstr "HTML-classnaam"
+
+#: options.php:56
+msgid "Only works if extended mark-up is enabled."
+msgstr "Werkt alleen als Uitgebreide Codering is aangevinkt."
+
+#: options.php:56
+msgid ""
+"Use only lower case letters, digits, hyphens and underscores. The initial "
+"character must be a lower case letter."
+msgstr ""
+"Gebruik alleen kleine letters, cijfers, afbreekstreepjes en liggende "
+"streepjes. Het eerste teken moet een kleine letter zijn."
+
+#: options.php:56
+msgid "If left empty, the value \"creditline\" will be used."
+msgstr "Als dit vak leeg is, wordt de waarde \"creditline\" gebruikt."
+
+#: options.php:60
+msgid ""
+"By default, credit lines are generated as is, e.g. \"Photo by John\". The "
+"Extended Mark-up setting will wrap the credit in HTML mark-up that can then "
+"be styled, e.g. <code>&lt;span class=\"creditline\"&gt;Photo by &lt;span "
+"class=\"author\"&gt;John&lt;/span&gt;&lt;/span&gt;</code>."
+msgstr ""
+"Standaard worden creditlines kaal aangemaakt, bijvoorbeeld \"Photo by Jan\". "
+"De instelling Uitgebreide Codering zal ervoor zorgen dat de "
+"fotografenvermelding in extra HTML-elementen wordt gewikkeld, die dan "
+"opgemaakt kunnen worden. Bijvoorbeeld: <code>&lt;span class=\"creditline"
+"\"&gt;Photo by &lt;span class=\"author\"&gt;Jan&lt;/span&gt;&lt;/span&gt;</"
+"code>."
+
+#~ msgid "Strings"
+#~ msgstr "Teksten"
+
+#~ msgid "\""
+#~ msgstr "\""
+
+#~ msgid "Note the spaces."
+#~ msgstr "Let op de spaties."
+
+#~ msgid ""
+#~ "<p>If you want to replace \"Photo\", \"of\", \"by\" and so on by other "
+#~ "texts, you can do so here. If you replace \"Photo\" by \"Illustration\" "
+#~ "for example, from now on your image credits will be output as "
+#~ "\"Illustration of SUBJECT by AUTHOR\" instead of \"Photo of SUBJECT by "
+#~ "AUTHOR\" and so on. Note: 1) the order cannot be changed, and 2) if you "
+#~ "are using a multilingual site, you will need to replace the translation "
+#~ "files.</p> <p>If you have a single-language, non-English site, you could "
+#~ "use this as a simple translation tool."
+#~ msgstr ""
+#~ "<p>Als je \"Foto\", \"van\", \"door\" enzvoort wil vervangen door andere "
+#~ "teksten, kun je dat hier doen. Als je bijvoorbeeld \"Foto\" door "
+#~ "\"Illustratie\" vervangt, zullen je auteursvermeldingen van nu af aan "
+#~ "worden aangemaakt als \"Illustratie van ONDERWERP door MAKER\" in plaats "
+#~ "van \"Foto van ONDERWERP door MAKER\" enzvoort. Let op: 1) de volgorde "
+#~ "kan niet worden aangepast, en 2) als je een meertalige site gebruikt, zul "
+#~ "je hierna je vertalingen moeten aanpassen.</p> <p>Als je een enkeltalige, "
+#~ "niet-Engelse site hebt, kun je dit ook als een eenvoudig vertaalwerktuig "
+#~ "inzetten."
+
+#~ msgid "Credit Line Generator"
+#~ msgstr "Credit Line Generator"

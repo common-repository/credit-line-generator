@@ -1,0 +1,114 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Credit Line Generator\n"
+"POT-Creation-Date: 2020-09-01 14:21+0200\n"
+"PO-Revision-Date: 2019-12-13 21:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: Credit Line Generator <collin@xs4all.nl>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: creditline.php:117
+msgid "Image credit"
+msgstr ""
+
+#: creditline.php:117
+msgid "Make photo credits easy."
+msgstr ""
+
+#: creditline.php:117
+msgid ""
+"This tool will, if you feed it the right data, come up with something like "
+"<code><a href=\"\">Photo</a> by John Smith.</code> or <code><a href="
+"\"\">Photo of kittens</a> by John Smith, <a href=\"\">some rights reserved</"
+"a>.</code> and so on."
+msgstr ""
+
+#: creditline.php:121
+msgid "URL"
+msgstr ""
+
+#: creditline.php:125
+msgid "Webpage on which you found the photo."
+msgstr ""
+
+#: creditline.php:129
+msgid "Photographer"
+msgstr ""
+
+#: creditline.php:135
+msgid "CC license URL"
+msgstr ""
+
+#: creditline.php:137
+msgid "If the photo is Creative Commons licensed."
+msgstr ""
+
+#: creditline.php:141
+msgid "GNU FDL URL"
+msgstr ""
+
+#: creditline.php:143
+msgid "If the photo is GPL FDL licensed."
+msgstr ""
+
+#: creditline.php:147
+msgid "&quot;Photo of&quot;"
+msgstr ""
+
+#: creditline.php:150
+msgid ""
+"The subject of the photo. If you fill out this field with f. ex. \"a "
+"letterbox\", the link text to the photo page will read \"Photo of a "
+"letterbox.\" Otherwise, the link will simply read \"Photo.\""
+msgstr ""
+
+#: creditline.php:154
+msgid "Submit"
+msgstr ""
+
+#: creditline.php:154
+msgid "Cancel"
+msgstr ""
+
+#: options.php:18
+msgid "Extended Mark-up"
+msgstr ""
+
+#: options.php:25
+msgid "Enable extended mark-up?"
+msgstr ""
+
+#: options.php:33
+msgid "HTML class name"
+msgstr ""
+
+#: options.php:56
+msgid "Only works if extended mark-up is enabled."
+msgstr ""
+
+#: options.php:56
+msgid ""
+"Use only lower case letters, digits, hyphens and underscores. The initial "
+"character must be a lower case letter."
+msgstr ""
+
+#: options.php:56
+msgid "If left empty, the value \"creditline\" will be used."
+msgstr ""
+
+#: options.php:60
+msgid ""
+"By default, credit lines are generated as is, e.g. \"Photo by John\". The "
+"Extended Mark-up setting will wrap the credit in HTML mark-up that can then "
+"be styled, e.g. <code>&lt;span class=\"creditline\"&gt;Photo by &lt;span "
+"class=\"author\"&gt;John&lt;/span&gt;&lt;/span&gt;</code>."
+msgstr ""
